@@ -1,0 +1,89 @@
+.products-section {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 0 20px;
+}
+.products-section .products-left {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+}
+.products-section .products-left h1 {
+}
+.products-section .products-left .brands {
+  cursor: pointer;
+  background-color: #eee;
+  font-size: 20px;
+}
+.have-to-log {
+  font-size: 30px;
+  color: var(--color-danger);
+  text-decoration: none;
+  font-weight: 700;
+}
+.products-section .products-left .brands.active {
+  background-color: var(--color-danger);
+  color: white;
+}
+.products-section .products-left h3 {
+}
+.products-section .products-left input {
+}
+.products-section .products-left button {
+  border: none;
+  background-color: var(--color-danger);
+  color: white;
+  padding: 5px 0;
+  cursor: pointer;
+}
+.products-section .products-right {
+  width: 75%;
+}
+.products-section .products-right .products-top {
+}
+.products-section .products-right .products-top p {
+}
+.products-section .products-right .products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+}
+.products-section .products-right .products .product {
+  border-radius: 15px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.4);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 250px;
+}
+.products-section .products-right .products .product .image {
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.products-section .products-right .products .product .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.products-section .products-right .products .product > p:first-of-type {
+  color: var(--color-danger);
+}
+.products-section .products-right .products .product button {
+  background-color: var(--color-danger);
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.products-section .products-right {
+}
+.products-section .products-right {
+}
+.products-section .products-right {
+}

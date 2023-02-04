@@ -1,0 +1,91 @@
+.main-auth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  min-height: calc(100vh - 60px - 53px);
+}
+
+.main-auth .form-auth {
+  width: 400px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.main-auth .form-auth h2 {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 400;
+  color: var(--color-danger);
+}
+.main-auth .form-auth .form-i input {
+  width: 100%;
+  padding: 10px 5px;
+  margin-bottom: 10px;
+}
+.main-auth .form-auth .form-i > button {
+  width: 100%;
+  padding: 10px 5px;
+  margin-bottom: 10px;
+  background-color: var(--light-blue);
+  color: white;
+  border: none;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.main-auth .form-auth .form-i a {
+  color: var(--color-dark);
+  display: block;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.main-auth .form-auth .form-i p {
+  color: var(--color-dark);
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 300;
+  width: 100%;
+  text-align: center;
+}
+.main-auth .form-auth > button {
+  width: 100%;
+  padding: 10px 5px;
+  margin-bottom: 10px;
+  background-color: var(--color-danger);
+  color: white;
+  border: none;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.main-auth .form-auth > button svg {
+  margin-right: 5px;
+}
+.main-auth .form-auth .register {
+  width: 100%;
+  color: var(--color-dark);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.main-auth .form-auth .form-i .register {
+  width: 100%;
+  color: var(--color-dark);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 300;
+}
+.main-auth .form-auth .form-i .register a {
+  display: block;
+  font-weight: 300;
+}
+.main-auth .form-auth .register a {
+  display: block;
+  color: var(--color-dark);
+  font-weight: 500;
+}
